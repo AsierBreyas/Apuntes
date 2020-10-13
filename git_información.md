@@ -5,3 +5,5 @@
 * **git commit -m "Texto de prueba**: nos sirve para que podamos hacer el backup del los archivos en la carpeta oculta con un mensaje para diferenciarlos.
 * **git remote add origin "enlace del repositorio online**: con este comando vinculamos nuestra carpeta con un repositorio online.
 * **git push -u origin master**: con esto subimos los archivos los cuales les hemos hecho un commit.
+* **git log --oneline**: nos permite ver los commit hechos hasta ahora
+* **git checkout "indentificador commit"**: volver a un commit que ya no tenemos acceso a él.
