@@ -11,6 +11,7 @@
 1. **¿Cuál es la manera más eficiente de encontrar una mala confirmación?** Con el comando git bisect.
 1. **¿Qué es un "encabezado"?** Se utiliza para referirse al objeto de una confirmación.
 1. **¿Se pueden arreglar las confirmaciones rotas?** Con el comando git commit - amend 
+1. **¿Cuál es la diferencia entre "obtener" y "extraer"?** Cuando extraes los datos se descargan y ellos mismos se fusionan entre ellos. Si los obtienes, solamente se descargan y cada archivo se queda por separado.
 
 # Git Comandos
 * **git init**: habilitamos git en la carpeta en la que estemos situados, creando una carpeta oculta en ese directorio.
@@ -25,3 +26,7 @@
 * **git config** sirve para configurar git ya se la informacion del usuario o la forma en la que se sube el repositorio
 * **git ignore** con este comando indicamos evitar subir basura inecesaria
 * **git commit - amend** Este comando nos permite encontrar la confirmación rota y restaura su funcionalidad eliminando el mensaje de error.
+* **git fetch** Baja los cambios de una rama determinada y la coloca en espejo.
+* **git merge** Fusiona dos ramas en una rama
+* **git pull** Hace un git fetch y git merge a la vez
+
